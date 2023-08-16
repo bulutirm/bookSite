@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+
+    <style>
+        .custom-border {
+            background-color: #00008B; /* Arka plan rengini değiştirin */
+            border-color: #00008B; /* Border rengini değiştirin */
+            color: #ffffff; /* Metin rengini değiştirin */
+            
+        }
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            
+        }
+        .card-body {
+            max-width: 650px; /* Daha küçük bir genişlik ayarlayabilirsiniz */
+            margin: 5px;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product-title{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .new-price{
+            font-weight: bold;
+        }
+        .note{
+            font-size: 0.8rem;
+            color: #888;
+            font-weight: bold;
+        }
+        .btn-add-cart1{
+            
+            color: #ffffff;
+            box-shadow: 0 9px #3B66B8;
+        }
+        .custom-btn {
+            background-color: white;
+            color: gray;
+            border-color: gray;
+        }
+    </style>
+</head>
+<body>
+    
+    <section id="pricePage">
+        <div class="card">
+            <div class="card-body" style="width: 50rem;">
+                <div class="container-lg justify-content-center align-items-center">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-3 p-3 mb-2 text-center d-none d-md-block">
+                            <img src="assets\headphones_PNG7643.png" alt="headphone" class="img-fluid align-top mx-auto d-block">
+                        </div>
+                        <div class="col-sm-9 p-3 text-center text-md-start">
+                            <div class="m-3 p-2 rounded-pill d-inline-flex custom-border">Free Shipping</div>
+                            <h3>
+                                <div class="mx-3 p-2 product-title">Razer Kraken Kitty Edt Gaming Headset Quartz</div>
+                            </h3>
+                            <div>
+                                <p class="text-decoration-line-through mx-4 my-1 ex-price">1 599,</p>
+                                <h3 class="mx-4 my-0 new-price">799,-</h3>
+                                <p class="mx-4 my-1 note">The offer is valid until April 3 or as long as stock lasts!</p>
+                            </div>
+                            <div class="my-4 d-grid gap-2">
+                                <button class="btn btn-primary mx-4 btn-add-cart1" type="button">Add to cart</button>
+                                <p class="m-4 my-2 bi bi-circle-fill text-success"> 50+ pcs. in stock.</p> 
+                            </div>
+                            
+                            <div class="my-3 d-flex justify-content-center">
+                                <div class="mx-1 align-items-lg-center w-100">
+                                    <a href="#" class="w-100 btn btn-primary bi bi-basket3 custom-btn" role="button" data-bs-toogle="button"> Add to cart</a>
+                                </div>
+                                <div class="mx-1 align-items-lg-center w-100">
+                                    <a href="#" class="w-100 btn btn-primary bi bi-heart custom-btn" role="button" data-bs-toogle="button"> Add to wishlist</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
